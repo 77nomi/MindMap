@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="Java:jar">
+    <output-path>$PROJECT_DIR$/../jar</output-path>
+    <root id="root">
+      <element id="archive" name="Java.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/../JAR/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="Java" />
+      </element>
+      <element id="library" level="project" name="commons-codec-1.16.1" />
+      <element id="library" level="project" name="mysql-connector-j-8.3.0" />
+    </root>
+  </artifact>
+</component>
